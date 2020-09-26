@@ -19,12 +19,12 @@ function setup() {
 
 	ground = new Ground(width / 2,height - 50,width,10);
 
+	paper = new Paper();
 	dustbin1 = new Dustbin(550, height - 100, 10, 100);
 	dustbin2 = new Dustbin(750, height - 100, 10, 100);
 
 	dustbin3 = new Dustbin(650, height - 50, 200, 10);
 
-	paper = new Paper();
 	Engine.run(engine);
   
 }
