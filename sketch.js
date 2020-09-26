@@ -24,7 +24,7 @@ function setup() {
 
 	dustbin3 = new Dustbin(650, height - 50, 200, 10);
 
-	// paper = new Paper(10,10,10);
+	paper = new Paper();
 	Engine.run(engine);
   
 }
